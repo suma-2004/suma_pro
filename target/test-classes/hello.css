@@ -2,9 +2,8 @@ body {
     font-family: Arial, sans-serif;
 
     background-size:cover ;
-    height:100vh; 
-    background-image: url("https://media.istockphoto.com/id/1394781347/photo/hand-holdig-plant-growing-on-green-background-with-sunshine.webp?s=2048x2048&w=is&k=20&c=uGCzbdPDCbkBagRhtTMtfZpUMKQXrWwC1TmFKBpzUrY=");
-     
+    height:100vh;
+    background-color: coral;     
 }
 
   .container {
