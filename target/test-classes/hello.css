@@ -129,6 +129,13 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
+.animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  -webkit-animation: Rofa 5s infinite; /* Apply the animation with a 5s duration and infinite loop */
+  animation: Rofa 5s infinite;
+}
 
 @-webkit-keyframes Rofa {
   0% {
@@ -137,6 +144,7 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
       transform: translatey(0);
       background-color: yellow;
   }
+  
 
   5% {
       height: 100%;
@@ -267,6 +275,7 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
 
       background-color: cornflowerblue;
   }
+  
   100% {
       height: 0;
       -webkit-transform: translatey(0);
@@ -274,4 +283,5 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
 
       background-color: cornflowerblue;
   }
+  
 }
